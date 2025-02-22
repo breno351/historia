@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>historias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">Escolha seu personagem</h1>
+    <div class="container">
+        <img onclick="contar_historia_warrior()" src="imagens/download.jpg" alt="Imagem.warrior">
+        <img onclick="contar_historia_mago()" src="imagens/images (1).jpg">
+    </div>
+    <p id="historia1"></p>
+
+    <script>
+        function contar_historia_warrior() {
+            document.getElementById("historia1").innerHTML ="Soul of Cinder é uma junção dos anteriores Lords of Cinder , incluindo o Chosen Undead e o Bearer of the Curse (assumindo que eles tenham ligado a chama), Lord Gwyn , Solaire de Astora (assumindo que ele tenha sobrevivido e conseguiu ligar a chama em seu mundo), e todos os outros personagens que alguma vez ligaram a Primeira Chama . Isto é provado pelo seu nome japonês, a Incarnação dos Reis (王 た ち の 化身), bem como a descrição da Alma dos Senhores . Como tal, ele exerce as habilidades combinadas, armas e magia de seus componentes, dando-lhe um tremendo poder. O papel do Soul lf Cinder como manifestação dos anteriores Lords dos Cinder é defender a chama como tal ele atua como a última linha de defesa contra o Ashen One quando eles chegam ao lugar de descanso da Primeira chama."
+
+        }
+        function contar_historia_mago() {
+            document.getElementById("historia1").innerHTML = "Rennala era a herdeira da Família Real Carian, que tradicionalmente governava a Academia Raya Lucaria. Os Carians eram astrólogos que migraram para Liurnia do Topo das Montanhas dos Gigantes. Em sua terra natal, eles tinham relações amigáveis com os Gigantes de Fogo."
+
+        }
+    </script>
+</body>
+</html>
